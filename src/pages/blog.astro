@@ -1,6 +1,14 @@
 ---
-
+const pageTitle = "My Astro Learning BLOG";
 ---
+
+<html lang="en">
+<head>
+    <meta charset ="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <title>{pageTitle}</title>
+  </head>
 
 <body>
     <a href="/">Home</a>
@@ -12,5 +20,10 @@
     <h1>Blog</h1>
     <h2>... and my Astro Site</h2>
     <p>This is where I'll create a BLOG</p>
-    <p>WIP</p>
+    <ul>
+        <li><a href="/posts/post-1/">Post 1</a></li>
+        <li><a href="/posts/post-2/">Post 2</a></li>
+        <li><a href="/posts/post-3/">Post 3</a></li>
+    </ul>
 </body>
+</html>
